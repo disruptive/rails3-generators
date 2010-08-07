@@ -1,4 +1,4 @@
-require File.expand_path(File.dirname(__FILE__) + '<%= '/..' * class_nesting_depth %>/../spec_helper')
+require File.expand_path(File.dirname(__FILE__) + '<%= '/..' * 1 %>/../spec_helper')
 
 describe <%= class_name %>Controller do
 
